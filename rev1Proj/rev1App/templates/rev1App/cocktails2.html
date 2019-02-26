@@ -1,0 +1,11 @@
+<!--TO SYNC TO MAIN PAGE-->
+{% extends 'rev1App/cocktails1.html' %}
+
+
+{% block content%}
+<!--TO DISPLAY SPECIFIC NAME-->
+Cocktail: {{drinks.name}}
+
+<!--LINK TO HOME PAGE-->
+<a href="{% url 'cocktails' %}">Home Page</a>
+{% endblock content%}
